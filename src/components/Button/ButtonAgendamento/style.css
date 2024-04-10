@@ -1,0 +1,11 @@
+.custom-color {
+  background-color: #4B825B;
+  color: #fff; 
+  
+&:hover {
+    background-color: #4B825B; 
+    color: #fff; 
+
+}
+}
+
