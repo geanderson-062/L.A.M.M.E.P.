@@ -1,0 +1,30 @@
+.PrimaryColor { background-color: fff;}
+
+.ColorText {color:#000}
+
+.changeColorOnHover:hover {
+    color: #4B825B; 
+    cursor: pointer; 
+}
+
+.linkWithUnderline {
+  position: relative;
+  text-decoration: none;
+}
+
+.linkWithUnderline::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 100%;  
+  height: 2px;  
+  background-color: transparent;  
+  transition: left 0.3s, background-color 0.3s;  
+}
+
+.linkWithUnderline:hover::after {
+  left: 0; 
+  background-color: #000;  
+}
+
