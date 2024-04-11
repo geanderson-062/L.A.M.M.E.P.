@@ -1,14 +1,12 @@
 import React from "react";
 import "../Assets/css/Global.css";
-import TitleSobre from "../components/Title/TitleSobre";
-import TextSobre from "../components/Text/TextSobre";
+import CardSobre from "../components/Card/CardImgSobre";
 
 function SobrePage() {
   return (
     <>
       <div id="top-position">
-        <TitleSobre />
-        <TextSobre />
+        <CardSobre />
       </div>
     </>
   );

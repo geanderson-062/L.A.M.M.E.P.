@@ -5,10 +5,7 @@ import "./style.css";
 const TextSobre = () => {
   return (
     <div className="container" style={{ maxWidth: 1000 }}>
-      <p
-        className="fs-6 text-container"
-        style={{ marginTop: 50, marginBottom: 50 }}
-      >
+      <p className="fs-6 text-container">
         O Laboratório Multiusuário em Meios Porosos (LAMMEP), localizado no
         DEN/UFPE, é um laboratório associado ao INCT-ONDACBC. Ele atende às
         necessidades de pesquisadores, tanto nacionais quanto internacionais,
